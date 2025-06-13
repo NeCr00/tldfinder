@@ -17,8 +17,6 @@ def main():
     )
     args = parser.parse_args()
 
-    # Display logo
-    print(LOGO)
 
     # Normalize and split domain
     domain = args.domain.rstrip('.')
